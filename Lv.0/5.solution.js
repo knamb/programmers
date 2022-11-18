@@ -9,7 +9,7 @@ function solution(num, total) {
   const x = (total - sum)/num;
   // 위에서 구한수를 num 만큼 돌리는데 0 1 2 늘려가며 더해주면서 배열에 push
   for(let i=0; i<num;i++){
-     answer.push(x+i); // x, x+1, x+2, x+3 ..... 연속된 정수들 ...
+     answer.push(x+i); // x, x+1, x+2, x+3 ..... 연속된 정수들 ..
   }
 
   return answer;
