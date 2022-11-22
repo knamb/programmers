@@ -16,7 +16,7 @@ function solution(s) {
   return answer;
 }
 
-//@@참고 ///
+//@@참고 /// 다시 수정필요 -수정보완
 
 // cFunction(a, b) : return -1 =>  (순서 안바꾼다) a를 b보다 낮은 색인으로 정렬합니다. a, b 순서
 // cFunction(a, b) : return 0; =>  (그대로 둔다) a와 b를 서로에 대해 변경하지 않고 모든 다른 요소에 대해 정렬.
