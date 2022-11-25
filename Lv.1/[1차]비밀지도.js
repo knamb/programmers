@@ -37,5 +37,6 @@ function solution(n,arr1, arr2) {
     answer.push(String(tmp.join(''))); //한줄 한줄 배열을 문자열 형태로 합쳐서 결국엔 한 배열에 문자열들의 집합을 담는다 
   }
 
+  console.log(answer);
   return answer;
 }
